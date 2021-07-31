@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Custom T-shirts</title>
+</head>
+
+<body bgcolor=#232359>
+    <header>
+        <h1 align=center style="color: #E3E3F3;">
+            Best in the business
+        </h1>
+    </header>
+    <main style="background-color: #E3E3F3" width=100%>
+        <hr>
+        <div class="heading" align=center>
+            <font size=5 color="black">Design Information</font>
+        </div>
+        <hr>
+        <div class="design">
+            <form action="">
+                <table cellspacing='5px' cellpadding='10px' width=70% align="center">
+                    <tr>
+                        <td><label for="Gender">Gender:</label></td>
+                        <td>
+                            <select name="gender" id="gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Unisex">Unisex</option>
+                              </select>
+                        </td>
+                        <td>
+                            <label for="Prize Range">Price Range:</label>
+                        </td>
+                        <td>
+                            <select name="Prize" id="range">
+                                <option value="0-500">0-500 Rs</option>
+                                <option value="500-1000">500-1000 Rs</option>
+                                <option value="1000-2000">1000-2000 Rs</option>
+                                <option value="2000+">I'm Rich</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="color">Color:</label>
+                        </td>
+                        <td>
+                            <input type="color" value="#ABCDEF">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Size">Size</label>
+                        </td>
+                        <td>
+                            
+                            <input type="radio" id="small">
+                            <label for="small">S</label>
+                            <input type="radio" id="medium">
+                            <label for="medium">M</label>
+                            <input type="radio" name="" id="Large">
+                            <label for="Large">L</label>
+                            <input type="radio" name="" id="XL">
+                            <label for="XL">XL</label>
+                            <input type="radio" name="" id="XXL">
+                            <label for="XXL">XXL</label>
+                            <input type="radio" name="" id="fat">
+                            <label for="fat">I'm Fat</label>
+                        </td>
+                        <td>
+                            <label for="printing area">Print on:</label>
+                        </td>
+                        <td>
+                            <label for="Front">Front</label>
+                            <input type="checkbox" name="area" id="area">
+                            <label for="back">Back</label>
+                            <input type="checkbox" name="back" id="">
+                            <label for="side">side</label>
+                            <input type="checkbox" name="side" id="">
+                        </td>
+                        <td>
+                            <label for="tagline">Tagline:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Nothing really matters!">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="quantity">Quantity:</label>
+                        </td>
+                        <td>
+                            <input type="number" value="1">
+                        </td>
+                        <td>
+                            <label for="special">Any speacial directions</label>
+                        </td>
+                        <td>
+                            <textarea name="special" id="sd" cols="80" rows="5"></textarea>
+                        </td>
+                        <td>
+                            <label for="Date">Date to be delivered:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <hr>
+        <div class="heading2" align=center>
+            <font size=4 color="black">Personal Information</font>
+        </div>
+        <hr>
+        <form action="">
+            <table cellpadding=8 cellspacing=4 border="0" align="center">
+                <tr>
+                    <td><label for="name">
+                            <font size=4 color=black>Name:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="your name">
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="email">
+                            <font size=4 color=black>Email:</font>
+                        </label>
+                    </td>
+                    <td>
+                         <input type="text" name="email" placeholder="abc123@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mob">
+                            <font size=4 color=black>Mobile No:</font>
+                        </label>
+                    </td>
+                    <td>
+                         <input type="tel" name="mob" placeholder="123-456-789">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="city">
+                            <font size=4 color=black>City:</font>
+                        </label>
+                    </td>
+                    <td>
+                         <input type="text" name="city" placeholder="eg. Mumbai">
+                    </td>
+                </tr>                
+                <tr>
+                    <td><label for="pincode">
+                            <font size=4 color=black>Pin code:</font>
+                        </label>
+                    </td>
+                    <td>
+                         <input type="text" name="pincode" placeholder="eg.400072">
+                    </td>
+                </tr>    
+                <tr>
+                    <td><label for="Address">
+                            <font size=4 color=black>Address:</font>
+                        </label>
+                    </td>
+                    <td>
+                         <textarea name="Address" id="Address" cols="22" rows="1" ></textarea>
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="2" align="center">
+                        <input style="width: 50%;font:19px bold;" type="submit" value="Place Order" onclick="alert('Got the Order B0ss')">
+                    </td>
+                </tr>     
+                <tr>
+                    <td>
+                        <label for="likely">How likely would you suggest this site to a friend?</label>
+                    </td>
+                    <td>
+                        <input type="range" name="range" id="">
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </form>
+    </main>
+    <footer>
+        <div class="image" style="background-color:#E3E3F3;" align='center' width=50%  >
+            <span><img src="Images/download.jpeg" alt="T-shirt" width="250px"></span>
+            <span><img src="Images/download (1).jpeg" alt="T-shirt" width="250px"></span>
+            <span><img src="Images/download (2).jpeg" alt="T-shirt" width="250px"></span>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
