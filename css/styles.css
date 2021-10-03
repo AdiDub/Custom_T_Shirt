@@ -15,6 +15,10 @@ body {
     border-radius: 50px;
 }
 
+#date {
+    display: block;
+}
+
 .heading {
     text-align:center;
     color: #E3E3F3;
@@ -75,3 +79,69 @@ body {
     background-image: linear-gradient(#E3E3F3, blue);
 
 }
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    margin-left: 30%;
+}
+
+form h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+input,
+        select {
+            margin-bottom: 1rem;
+        }
+
+        .mt-1 {
+            margin-top: 1rem;
+        }
+
+        .options {
+            margin-top: 1rem;
+        }
+
+        .options label {
+            margin-top: 0.8rem;
+            font-size: 0.8rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            padding: 0.4rem 0.8rem;
+            color: white;
+            background: blue;
+            border: none;
+            border-radius: 7px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: all 750ms ease-in-out;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #2dbdff;
+        }
+
+        .preview {
+            display: flex;
+            width: 400px;
+            margin-right: 200px;
+            background: #f4f4f4;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .preview img {
+            height: 80%;
+            width: 80%;
+        }
